@@ -1,30 +1,34 @@
 [
   {
+    "id": "chaayil",
+    "title": "Chaayil",
+    "description": "A platform focused on simplifying everyday workflows and productivity tasks by combining lightweight automation and task organization.",
+    "tech": ["Python", "FastAPI", "JavaScript", "HTML", "CSS", "SQL"],
+    "tags": ["Productivity", "Web App", "Automation"],
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "stockdash",
+    "title": "StockDash",
+    "description": "A stock market analytics dashboard that aggregates and visualizes market data to help users quickly understand trends and price movements.",
+    "tech": ["Python", "Streamlit", "Pandas", "Plotly", "Financial APIs"],
+    "tags": ["Finance", "Data Visualization", "Analytics"],
+    "image": "https://images.unsplash.com/photo-1611974717483-5828ff7c63ad?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "time-saver",
+    "title": "Time-Saver Chrome Extension",
+    "description": "A browser extension designed to improve productivity by automating repetitive browsing tasks and adding shortcuts.",
+    "tech": ["JavaScript", "Chrome APIs", "HTML", "CSS"],
+    "tags": ["Browser Extension", "Productivity", "Automation"],
+    "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
     "id": "project-1",
     "title": "Table Transformation Engine",
     "description": "An advanced system for orchestrating complex XML/XSD file processing into structured database tables.",
     "tech": ["Python", "AWS Lambda", "Spark", "Redshift"],
     "tags": ["Data Engineering", "Cloud", "ETL"],
-    "repo": "https://github.com/example/transform-engine",
-    "demo": "https://demo.example.com",
     "image": "https://images.unsplash.com/photo-1551288049-bbbda536339a?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    "id": "project-2",
-    "title": "Database Automation Orchestrator",
-    "description": "Streamlined schema management system leading to 90% reduction in manual effort.",
-    "tech": ["Python", "PostgreSQL", "Terraform", "Boto3"],
-    "tags": ["Automation", "DevOps", "Database"],
-    "repo": "https://github.com/example/db-orchestrator",
-    "image": "https://images.unsplash.com/photo-1558494949-ef8b5655d939?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    "id": "project-3",
-    "title": "GenAI Code Converter",
-    "description": "Leveraging LLMs to automate the conversion of legacy COBOL codebases to modern Python.",
-    "tech": ["LLMs", "NLP", "Python", "LangChain"],
-    "tags": ["AI", "GenAI", "Migration"],
-    "demo": "https://ai-converter.example.com",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80"
   }
 ]
