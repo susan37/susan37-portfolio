@@ -1,0 +1,30 @@
+[
+  {
+    "id": "project-1",
+    "title": "Table Transformation Engine",
+    "description": "An advanced system for orchestrating complex XML/XSD file processing into structured database tables.",
+    "tech": ["Python", "AWS Lambda", "Spark", "Redshift"],
+    "tags": ["Data Engineering", "Cloud", "ETL"],
+    "repo": "https://github.com/example/transform-engine",
+    "demo": "https://demo.example.com",
+    "image": "https://images.unsplash.com/photo-1551288049-bbbda536339a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "project-2",
+    "title": "Database Automation Orchestrator",
+    "description": "Streamlined schema management system leading to 90% reduction in manual effort.",
+    "tech": ["Python", "PostgreSQL", "Terraform", "Boto3"],
+    "tags": ["Automation", "DevOps", "Database"],
+    "repo": "https://github.com/example/db-orchestrator",
+    "image": "https://images.unsplash.com/photo-1558494949-ef8b5655d939?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "project-3",
+    "title": "GenAI Code Converter",
+    "description": "Leveraging LLMs to automate the conversion of legacy COBOL codebases to modern Python.",
+    "tech": ["LLMs", "NLP", "Python", "LangChain"],
+    "tags": ["AI", "GenAI", "Migration"],
+    "demo": "https://ai-converter.example.com",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "modern-data-orchestration",
+    "title": "Modern Data Orchestration with AWS Step Functions",
+    "date": "2024-03-10",
+    "summary": "Exploring how to build resilient data pipelines using serverless orchestration patterns on AWS.",
+    "tags": ["Cloud", "Data Engineering", "AWS"],
+    "content": "<h2>Introduction</h2><p>AWS Step Functions provide a powerful way to coordinate multiple AWS services into serverless workflows...</p><h3>Why Serverless Orchestration?</h3><ul><li>Cost-effective scalability</li><li>Reduced operational overhead</li><li>Built-in error handling</li></ul><pre><code>const stepFunctions = new AWS.StepFunctions();</code></pre>",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "genai-in-enterprise",
+    "title": "Bringing Generative AI to the Enterprise",
+    "date": "2024-02-15",
+    "summary": "Lessons learned from implementing production-grade LLM applications in large organizations.",
+    "tags": ["AI", "GenAI", "Enterprise"],
+    "content": "<h2>The Challenge</h2><p>Enterprise AI isn't just about the model; it's about the data, security, and governance...</p><blockquote>Security and privacy are paramount when dealing with enterprise data.</blockquote>",
+    "image": "https://images.unsplash.com/photo-1676299081847-824916de030a?auto=format&fit=crop&w=800&q=80"
+  }
+]

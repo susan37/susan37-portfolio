@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Software Engineer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">Dev<span class="highlight">Portfolio</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html#home" class="nav-link">Home</a></li>
+            <li><a href="projects.html" class="nav-link active">Projects</a></li>
+            <li><a href="blog.html" class="nav-link">Blog</a></li>
+        </ul>
+    </nav>
+
+    <main class="section">
+        <h1 class="section-title">My <span class="highlight">Projects</span></h1>
+        
+        <div class="filters-container glass">
+            <input type="text" id="project-search" placeholder="Search projects or tech...">
+            <div id="filter-tags" class="filter-tags">
+                <!-- Tags will be injected here -->
+            </div>
+        </div>
+
+        <div id="projects-grid" class="projects-grid">
+            <!-- Projects will be injected here -->
+            <div class="loader">Loading projects...</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Senior Software Engineer Portfolio. Built for the web.</p>
+    </footer>
+
+    <script src="js/utils.js"></script>
+    <script src="js/projects.js"></script>
+</body>
+</html>
